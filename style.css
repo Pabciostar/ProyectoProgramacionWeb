@@ -4,3 +4,11 @@ section {
     align-items: center;
     justify-content: center;
 }
+
+
+.container {
+    display: flex; /* Utiliza Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ajusta la altura del contenedor al 100% del viewport */
+  }
