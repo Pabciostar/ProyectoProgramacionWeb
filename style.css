@@ -9,7 +9,7 @@ section {
 .container {
     display: flex; /* Utiliza Flexbox */
     justify-content: center; /* Centra horizontalmente */
-    height: 100vh; /* Ajusta la altura del contenedor al 100% del viewport */
+    /* height: 100vh; Ajusta la altura del contenedor al 100% del viewport */
     margin-top: 100px;
   }
 
