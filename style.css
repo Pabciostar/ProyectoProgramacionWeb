@@ -3,13 +3,38 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #FFD1DC;
 }
 
 
 .container {
     display: flex; /* Utiliza Flexbox */
+    flex-direction: row;
     justify-content: center; /* Centra horizontalmente */
-    /* height: 100vh; Ajusta la altura del contenedor al 100% del viewport */
     margin-top: 100px;
+    background-color:
   }
+
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .seccion_bordeada {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centra horizontalmente */
+    border-radius: 50px;
+    border: 1px solid #D3D3D3;
+    align-items: center; /* Centra verticalmente */
+    height: 100vh;/* Ajusta la altura del contenedor al 100% del viewport */
+    background-color: #FFD1DC
+  }
+
 
