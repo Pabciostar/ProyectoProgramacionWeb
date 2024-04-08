@@ -1,39 +1,44 @@
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #FFD1DC;
-}
-
+/* section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFD1DC;
+  border-bottom: black solid 1px;
+  border-radius: 0px;
+} */
 
 .container {
-    display: flex; /* Utiliza Flexbox */
-    flex-direction: row;
-    justify-content: center; /* Centra horizontalmente */
-    margin-top: 100px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-bottom: black solid 1px;
+}
 
-  .boton {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-  .seccion_bordeada {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; /* Centra horizontalmente */
-    border-radius: 50px;
-    border: 1px solid #D3D3D3;
-    align-items: center; /* Centra verticalmente */
-    height: 100vh;/* Ajusta la altura del contenedor al 100% del viewport */
-    background-color: #FFD1DC
-  }
+.seccion_bordeada {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-
+.hero-section {
+  background: url(https://th.bing.com/th/id/OIG2.Dozss5UkVfkxGA0As.Pb?pid=ImgGn);
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+}
