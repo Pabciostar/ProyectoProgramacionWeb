@@ -1,13 +1,3 @@
-/* section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #FFD1DC;
-  border-bottom: black solid 1px;
-  border-radius: 0px;
-} */
-
 .container {
   display: flex;
   flex-direction: column;
