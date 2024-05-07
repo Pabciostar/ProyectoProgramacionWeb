@@ -31,7 +31,13 @@
 .navbar {
   padding-top: 40rem;
   padding-bottom: 40rem;
-}
+  background: rgba(255, 248, 146, 0.09);
+ 
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(3.2px);
+  }
 
 .boton {
   display: inline-block;
