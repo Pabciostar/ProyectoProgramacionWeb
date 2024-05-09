@@ -1,4 +1,23 @@
-/* Estos comandos css son para modificar clases que representan los contenedores donde se almacenará la información, además se utiliza flex box */
+body{
+  background: url(https://th.bing.com/th/id/OIG2.Dozss5UkVfkxGA0As.Pb?pid=ImgGn);
+}
+
+.navbar{
+  height: 70px;
+  padding-bottom: 40rem;
+  background: rgba(255, 248, 146, 0.09);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(3.2px);
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -6,79 +25,63 @@
     align-items: center;
     padding: 50px;
   }
-  
-  .container-fluid{
-    padding: auto;
-  }
-  
-  /* .seccion_bordeada {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  } */
-  
+
   .hero-section {
-    background: url(https://th.bing.com/th/id/OIG2.Dozss5UkVfkxGA0As.Pb?pid=ImgGn);
-    background-size: cover;
-    width: 100%;
-    background-attachment: fixed;
-  }
-  
-  
-  /* Configuracipn de barra de navegacion y boton */
-  .navbar {
-    padding-top: 40rem;
-    padding-top: 40rem;
-    padding-bottom: 40rem;
-    background: rgba(255, 248, 146, 0.09);
-   
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3.2px);
-    -webkit-backdrop-filter: blur(3.2px);
-  
-  }
-  
-  .boton {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  #boton { 
-    
-    display:flex ;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-  
-  
-  
+    max-width: 400cm;
   }
   
-  #contenedor-glass{
-    /* From https://css.glass */
+  .contenedor-foto-perfil {
+    width: 200px; /* Ancho deseado */
+    height: 200px; /* Alto deseado */
+    overflow: hidden; /* Oculta el contenido que se desborda del div */
+    border-radius: 50%; /* Establece un borde circular */
+    border: 2px solid #ccc; /* Añade un borde para mayor contraste */
+}
+
+.contenedor-foto-perfil img {
+    width: 100%; /* Asegura que la imagen ocupe todo el espacio dentro del div */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+}
+
+.central-zone {
   background: rgba(255, 246, 192, 0.51);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(14.2px);
   -webkit-backdrop-filter: blur(14.2px);
   border: 1px solid rgba(255, 246, 192, 1); 
+  margin-top: 50px;
+}
+
+br{
+  margin-top: 500px;
+}
+.publications-zone{
+width: 100%;
+}
+
+.publications-space {
+  position: relative; /* Para que los elementos absolutos se posicionen relativos a esta columna */
+  height: 200px; /* Altura de la columna */
+  overflow: hidden; /* Oculta cualquier contenido que se desborde */
+}
+
+.publications-space img {
+  position: absolute; /* Posiciona la imagen de manera absoluta dentro de la columna */
+  width: 100%; /* Ajusta la imagen para que abarque todo el ancho de la columna */
+  height: auto; /* Ajusta la altura automáticamente para mantener la relación de aspecto */
+  top: 0; /* Coloca la imagen en la parte superior de la columna */
+  left: 0; /* Coloca la imagen en la parte izquierda de la columna */
+}
+
   
-  }
+
+
   
-  /* #carouselExampleAutoplaying{
-  max-width: 100%;
-  height: auto;
-  max-height: ;
-  
-  
-  } */
 
 
