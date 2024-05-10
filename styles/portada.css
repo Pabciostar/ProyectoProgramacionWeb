@@ -1,9 +1,38 @@
-.gato-portada{
+.gato-portada {
 
-    background: url(https://png.pngtree.com/background/20230615/original/pngtree-wallpaper-of-a-group-of-cats-with-different-eyes-picture-image_3545657.jpg);
+    background: url(../portada/portada_paginaweb.jpeg);
     background-size: cover;
     width: 100%;
     background-attachment: fixed;
-  
 
+
+
+}
+
+.center-button {
+    padding: 50px 90px;
+    /* Ajusta el padding según sea necesario */
+    font-size: 24px;
+    /* Ajusta el tamaño de la fuente según sea necesario */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    /* Ajusta el radio del borde según sea necesario */
+    cursor: pointer;
+}
+
+
+.center-container {
+    text-align: center;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
