@@ -4,19 +4,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
   }
   
   .container-fluid{
     padding: auto;
-  }
-  
-  .seccion_bordeada {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
   }
   
   .hero-section {
@@ -33,49 +24,60 @@
     padding-top: 40rem;
     padding-bottom: 40rem;
     background: rgba(255, 248, 146, 0.09);
-   
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.2px);
     -webkit-backdrop-filter: blur(3.2px); 
   }
-  
-  .boton {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+
+  .imgPerfilContainer {
+    max-width: 200px;
+    /* Ancho deseado */
+    max-height: 200px;
+    /* Alto deseado */
+    overflow: hidden;
+    /* Oculta el contenido que se desborda del div */
+    border-radius: 50%;
+    /* Establece un borde circular */
+    border: 2px solid #ccc;
+    /* Añade un borde para mayor contraste */
   }
   
-  #boton { 
-    
-    display:flex ;
-    justify-content: center;
-    align-items: center;
-  
-  
-  
+  .imgPerfilContainer img {
+    width: 100%;
+    /* Ancho deseado */
+    max-height: 200px;
+    /* Alto deseado */
+    width: 100%;
+    display: block;
+  }
+
+
+  #publicationsZone{
+    background: rgba(255, 246, 192, 0.51);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.2px);
+    -webkit-backdrop-filter: blur(14.2px);
+    border: 1px solid rgba(255, 246, 192, 1); 
+    width: 500px;
+    margin-top: 50px;
+  }
+
+  #mainZone{
+    background: rgba(255, 246, 192, 0.51);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.2px);
+    -webkit-backdrop-filter: blur(14.2px);
+    border: 1px solid rgba(255, 246, 192, 1); 
+    width: 500px;
+    margin-top: 50px;
+  }
+
+  #publicationsZone .row {
+    margin-top: 30px;
   }
   
-  #contenedor-glass{
-    /* From https://css.glass */
-  background: rgba(255, 246, 192, 0.51);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(14.2px);
-  -webkit-backdrop-filter: blur(14.2px);
-  border: 1px solid rgba(255, 246, 192, 1); 
+
   
-  }
-  
-  /* #carouselExampleAutoplaying{
-  max-width: 100%;
-  height: auto;
-  max-height: ;
-  
-  
-  } */
