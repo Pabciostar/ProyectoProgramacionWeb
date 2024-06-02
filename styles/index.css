@@ -1,13 +1,18 @@
+body{
+  background: url(../images/portada_paginaweb.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
 .container {
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 50px;
-}
-
-.container-fluid {
-  padding: auto;
 }
 
 p {
@@ -17,14 +22,6 @@ p {
   align-items: center;
   font-family: "Dancing Script", 'Courier New';
   font-size: xxx-large;
-}
-
-.gato-portada {
-  background: url(../index/portada_paginaweb.jpeg);
-  background-size: cover;
-  background-position: center; /* Centra la imagen */
-  height: 100vh;
-  background-attachment: fixed;
 }
 
 /* Configuracipn de barra de navegacion y boton */
