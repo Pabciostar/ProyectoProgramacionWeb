@@ -11,7 +11,7 @@ $(document).ready(function () {
 
         var cardPublicacion = `
         <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card"">
             <img src=${imgVal} class="card-img-top img.fluid"
                 alt="...">
             <div class="card-body">
